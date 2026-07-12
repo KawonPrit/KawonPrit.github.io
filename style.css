@@ -1,5 +1,5 @@
 :root {
-    --color1: #00308f;
+    --color1: #000;
     --color2: #00308fa6;
     --white: #FFFFFF;
     --black: #000000;
@@ -42,6 +42,14 @@ body h2 {
     gap: 50px;
     justify-content: center;
     align-items: center;
+}
+#header-logo {
+    max-width: 125px;
+    border-radius: 20px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
 }
 #footer p {
     font-size: 12px;
@@ -146,6 +154,11 @@ body h2 {
     justify-content: center;
     gap: 100px;
     padding: 30px 20px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Exo';
+    text-align: center;
 }
 #s3-project-img {
     max-width: 670px;
@@ -234,12 +247,6 @@ body h2 {
     }
     #s2-inner {
         flex-direction: column;
-    }
-    #s1 h1, #s1 h2 {
-        /*font-size: 3.5vw;*/
-    }
-    .s2-block h3, #s3 h3, #s4 h3 {
-        /*font-size: 3.75vw !important;*/
     }
     #s3-project-img {
         max-width: 90%;
