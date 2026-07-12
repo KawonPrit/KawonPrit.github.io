@@ -282,5 +282,13 @@ body h2 {
         padding-bottom: 25px;
         text-align: center;
     }
-  
+    
+}
+@media screen and (max-width: 530px) {
+    #header-elements {
+        display: none;
+    }
+    #header-logo {
+        max-width: 75px;
+    }
 }
