@@ -8,7 +8,11 @@
     --font3: "Exo", serif;
 }
 body {
-    background-color: var(--color1);
+    background:
+    radial-gradient(ellipse farthest-corner at left bottom,
+        #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at right top,
+        #FFFFFF 0%, #FFFFAC 0%, #D1B464 10%, #5d4a1f 62.5%, #5d4a1f 100%);
     margin: 0;
     overflow-x: hidden;
 }
@@ -125,6 +129,7 @@ body h2 {
     font-family: var(--font1);
     font-size: 22px;
     margin: 20px 0px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .s2-block {
     max-width: 50%;
@@ -141,10 +146,12 @@ body h2 {
 }
 #s3 {
     padding: 50px 0;
+       background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
 #s3 h3 {
     text-align: center;
-    font-size: 22px;
+    font-size: 32px;
     color: var(--white);
     font-family: var(--font3);
 }
