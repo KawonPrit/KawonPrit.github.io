@@ -137,6 +137,10 @@ body h2 {
 }
 .s2-block1 {
     padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .s2-block1 h4 {
     font-size: 20px;
@@ -217,6 +221,12 @@ body h2 {
     background-color: #FFF;
     border-radius: 50%;
     transform: scale(0.75);
+}
+#about-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 16px 16px 40px 0px rgba(0, 0, 0, 0.3);
 }
 @media (min-device-width: 1131px) {
     #down {
